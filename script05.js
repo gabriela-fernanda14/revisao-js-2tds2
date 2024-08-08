@@ -5,7 +5,7 @@ let carnes = ["Calabresa", "Pepperoni", "Frango", "Bacon"];
 let vegetais = ["Tomate", "Cebola", "Pimentão", "Azeitona", "Manjericão"];
 
 let pizza = [];
-pizza.push (massas[0]);
+pizza.push (massas[1]);
 pizza.push (molhos[0]);
 pizza.push (queijos[0]);
 pizza.push (carnes[2]);
@@ -14,6 +14,8 @@ pizza.push (vegetais[3]);
 
 console.log ("pizza montada!")
 for (let i = 0; i < pizza.length; i++) {
-    console.log(pizza[i]);
+    if (i == 0) {
+        console.log ("Hummm... tá fit!");
     }
-   
+   console.log (pizza[i]);
+}
